@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
@@ -56,3 +59,69 @@ const LoadingScreenFirstOpen: React.FC = () => {
 };
 
 export default LoadingScreenFirstOpen;
+=======
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+>>>>>>> 03aa7aad77bacba4ad6789f0fb0ede38a07b0f5b
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client";
+
+import React, { useEffect, useState } from "react";
+import { useNavContext } from "../context/navContext";
+
+const TOTAL_BLOCKS = 20; // jumlah kotak di progress bar
+const UPDATE_INTERVAL = 50; // ms per update
+
+const LoadingScreenFirstOpen: React.FC = () => {
+  const { isLoading, setIsLoading } = useNavContext();
+  const [percent, setPercent] = useState(0);
+
+  useEffect(() => {
+    if (!isLoading) return;
+
+    const id = setInterval(() => {
+      setPercent((prev) => {
+        const next = prev + Math.ceil(100 / TOTAL_BLOCKS);
+        return next >= 100 ? 100 : next;
+      });
+    }, UPDATE_INTERVAL);
+
+    if (percent >= 100) {
+      clearInterval(id);
+      setTimeout(() => setIsLoading(false), 300);
+    }
+
+    return () => clearInterval(id);
+  }, [percent, isLoading, setIsLoading]);
+
+  if (!isLoading) return null;
+
+  const filledBlocks = Math.floor((percent / 100) * TOTAL_BLOCKS);
+
+  return (
+    <div className="fixed inset-0 bg-black flex flex-col justify-center items-center z-50">
+      {/* Text and percentage container posisi di atas bar, rata tengah */}
+      <div className="w-3/4 max-w-lg flex justify-between mb-4 font-mono text-white text-xl">
+        <span>LOADING...</span>
+        <span>{percent}%</span>
+      </div>
+      {/* Progress bar kotak-kotak */}
+      <div className="w-3/4 max-w-lg h-8 border-2 border-white flex">
+        {Array.from({ length: TOTAL_BLOCKS }).map((_, idx) => (
+          <div
+            key={idx}
+            className={`flex-1 m-[1px] ${
+              idx < filledBlocks ? "bg-white" : "bg-transparent"
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default LoadingScreenFirstOpen;
+<<<<<<< HEAD
+=======
+>>>>>>> e699ee062ca53a49d1b4b3391bb1cfc4af9af421
+>>>>>>> 03aa7aad77bacba4ad6789f0fb0ede38a07b0f5b
