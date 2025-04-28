@@ -190,7 +190,7 @@ const Navbar = () => {
         <div className='flex items-center w-full justify-between p-4 xl:py-7 xl:px-16'>
             {/* Judul Navbar */}
             <div className='font-semibold text-sm xl:text-xl bg-gradient-to-r from-white to-gray-800 bg-clip-text text-transparent'>
-                <h1>Evan Stefanus Candra</h1>
+                <h1>Rudi Yanto</h1>
             </div>
 
             {/* Button Navbar */}
