@@ -116,10 +116,10 @@ const ParticlesComponent = ({className, isActive = false, maxClicks = 10 }: {cla
           type: "image",
           options: {
             image : [
-              { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png",
+              { src: "https://upload.wikimedia.org/wikipedia/commons/3/36/Logo.min.svg",
                 opacity: 0.7
               },
-              { src: "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
+              { src: "https://upload.wikimedia.org/wikipedia/commons/7/79/Flutter_logo.svg",
                 opacity: 0.7
                },
               { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
