@@ -38,32 +38,43 @@ const HomePage = () => {
               
               {/* Keterangan */}
               <div className='w-full font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center mt-16 lg:mt-0'>
-                <h1 className='mb-20 sm:mb-10 md:mb-24 nama-evan'>Hi, I&apos;m Rudi Yanto Merdi</h1>
-                <p className='text-xl crafting'>IT Engineer | Software Devolopment</p>
+                <h1 className='mb-20 sm:mb-10 md:mb-24 nama-evan'>Hi, I&apos;m Rudi Yanto</h1>
+                <p className='text-xl crafting'>IT Engineer | Software Developer</p>
                 <div className='flex gap-5 justify-center front-end'>
 
                   <div className='flex gap-1 text1'>
-                    <p>F</p>
-                    <p>r</p>
-                    <p>o</p>
+                    <p>I</p>
+                    <p>T</p>
+                    <p>E</p>
                     <p>n</p>
-                    <p>t</p>
+                    <p>g</p>
+                    <p>i</p>
+                    <p>n</p>
                     <p>e</p>
-                    <p>n</p>
-                    <p>d</p>
+                    <p>e</p>
+                    <p>r</p>
+                    <p>|</p>
                   </div>
 
                   <div className='flex gap-1 text2'>
-                    <p>W</p>
+                    <p>S</p>
+                    <p>o</p>
+                    <p>f</p>
+                    <p>t</p>
+                    <p>w</p>
+                    <p>a</p>
+                    <p>r</p>
                     <p>e</p>
-                    <p>b</p>
+                    <p>D</p>
+                    <p>e</p>
+                    <p>v</p>
+                    <p>e</p>
+                    <p>l</p>
+                    <p>o</p>
+                    <p>p</p>
+                    <p>e</p>
+                    <p>r</p>
                   </div>
-                  
-                 <div className='flex gap-1 text3'>
-                  <p>D</p>
-                  <p>e</p>
-                  <p>v</p>
-                 </div>
                   
                 </div>
                 <div className='xl:text-2xl languages'>
@@ -73,7 +84,7 @@ const HomePage = () => {
                       loop: true,
                       delay: 50,
                       deleteSpeed: 50,
-                      strings: ['JavaScript, TypeScript, PHP'],
+                      strings: ['PHP, Laravel, Typescript, Nodejs, C#, Python'],
                     }}
                   />
                 </div>

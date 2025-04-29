@@ -94,6 +94,11 @@ const ParticlesComponent = ({className, isActive = false, maxClicks = 10 }: {cla
           width: 1.1,
         },
         move: {
+          direction: "none",
+          enable: true,
+          outModes: {
+            default: "bounce",
+          },
           random: true,
           speed: { min: 1, max: 3 },
           straight: false,
