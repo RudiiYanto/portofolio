@@ -38,7 +38,7 @@ const HomePage = () => {
               
               {/* Keterangan */}
               <div className='w-full font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center mt-16 lg:mt-0'>
-                <h1 className='mb-20 sm:mb-10 md:mb-24 nama-evan'>Hi, I&apos;m Rudi Yanto</h1>
+                <h1 className='mb-20 sm:mb-10 md:mb-24 nama-evan'>Hi, I&apos;m Rudi Yanto Merdi</h1>
                 <p className='text-xl crafting'>IT Engineer | Software Devolopment</p>
                 <div className='flex gap-5 justify-center front-end'>
 
