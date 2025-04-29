@@ -66,7 +66,7 @@ const ContactPage = () => {
                   {/* pesan */}
                   <div className='mb-4'>
                       <label htmlFor="pesan" className='font-semibold'>Message</label>
-                      <textarea name="pesan" id="pesan" className='border rounded-lg w-full p-2 bg-transparent' placeholder='Your Message For Evan...' rows={5}></textarea>
+                      <textarea name="pesan" id="pesan" className='border rounded-lg w-full p-2 bg-transparent' placeholder='Your Message For Rudi...' rows={5}></textarea>
                   </div>
                   {/* button */}
                   <div className='flex justify-end'>
