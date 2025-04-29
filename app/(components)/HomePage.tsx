@@ -18,8 +18,8 @@ const HomePage = () => {
 
     const tl = gsap.timeline()
     // animasi pada tulisan dan foto
-    tl.from(".nama-rudi", { opacity : 0, duration : 0, delay : 0.1 })
-      .from(".crafting", { scale : 0, duration : 0 })
+    tl.from(".nama-rudi", { opacity : 0, duration : 0, delay : 3 })
+      .from(".crafting", { scale : 0, duration : 0.1 })
       .from(".text1 p", { scale : 0, duration : 0.1, stagger : 0.1 })
       .from(".text2 p", { scale : 0, duration : 0.1, stagger : 0.1 })
       .from(".text3 p", { scale : 0, duration : 0.1, stagger : 0.1 })
