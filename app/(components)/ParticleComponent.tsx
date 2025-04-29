@@ -103,12 +103,6 @@ const ParticlesComponent = ({className, isActive = false, maxClicks = 10 }: {cla
           speed: { min: 1, max: 3 },
           straight: false,
         },
-        number: {
-          density: {
-            enable: true,
-          },
-          value: 100,
-        },
         opacity: {
           value: 1.0,
         },

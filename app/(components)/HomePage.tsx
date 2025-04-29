@@ -18,8 +18,8 @@ const HomePage = () => {
 
     const tl = gsap.timeline()
     // animasi pada tulisan dan foto
-    tl.from(".nama-evan", { opacity : 0, duration : 2, delay : 7 })
-      .from(".crafting", { scale : 0, duration : 0.2 })
+    tl.from(".nama-rudi", { opacity : 0, duration : 0, delay : 0.1 })
+      .from(".crafting", { scale : 0, duration : 0 })
       .from(".text1 p", { scale : 0, duration : 0.1, stagger : 0.1 })
       .from(".text2 p", { scale : 0, duration : 0.1, stagger : 0.1 })
       .from(".text3 p", { scale : 0, duration : 0.1, stagger : 0.1 })
@@ -45,6 +45,7 @@ const HomePage = () => {
                   <div className='flex gap-1 text1'>
                     <p>I</p>
                     <p>T</p>
+
                     <p>E</p>
                     <p>n</p>
                     <p>g</p>
@@ -53,6 +54,7 @@ const HomePage = () => {
                     <p>e</p>
                     <p>e</p>
                     <p>r</p>
+
                     <p>|</p>
                   </div>
 
@@ -65,6 +67,7 @@ const HomePage = () => {
                     <p>a</p>
                     <p>r</p>
                     <p>e</p>
+
                     <p>D</p>
                     <p>e</p>
                     <p>v</p>
