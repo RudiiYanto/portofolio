@@ -18,11 +18,11 @@ const HomePage = () => {
 
     const tl = gsap.timeline()
     // animasi pada tulisan dan foto
-    tl.from(".nama-rudi", { opacity : 0, duration : 0.3, delay : 7 })
-      .from(".crafting", { scale : 0, duration : 0.1 })
-      .from(".text1 p", { scale : 0, duration : 0.1, stagger : 0.1 })
-      .from(".text2 p", { scale : 0, duration : 0.1, stagger : 0.1 })
-      .from(".text3 p", { scale : 0, duration : 0.1, stagger : 0.1 })
+    tl.from(".nama-rudi", { opacity : 0, duration : 0.1, delay : 3 })
+      .from(".crafting", { scale : 0, duration : 0 })
+      .from(".text1 p", { scale : 0, duration : 0, stagger : 0.1 })
+      .from(".text2 p", { scale : 0, duration : 0, stagger : 0.1 })
+      .from(".text3 p", { scale : 0, duration : 0, stagger : 0.1 })
       .from(".languages", {scale : 0, opacity : 0, duration : 0.5 })
       .from(".scroll-down", { y : 100, opacity : 0, duration : 0.1 })
 
