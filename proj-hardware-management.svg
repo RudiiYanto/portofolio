@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 517" width="880" height="517">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f5f8ff"/><stop offset="1" stop-color="#e8eefb"/>
+    </linearGradient>
+    <linearGradient id="blueA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="blueB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93c5fd"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="white1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe6f7"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2148ee"/><stop offset="1" stop-color="#4fabf6"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#9db8e8" opacity="0.55"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="880" height="517" fill="url(#bg)"/>
+  <g stroke="#dbe4f5" stroke-width="1" opacity="0.75">
+    <path d="M470 517 L700 250 M560 517 L790 250 M650 517 L880 250 M740 517 L880 340"/>
+    <path d="M430 400 L880 400 M470 340 L880 340 M520 280 L880 280"/>
+  </g>
+  <rect x="512" y="72" width="92" height="70" fill="url(#dots)"/>
+
+  <!-- glow -->
+  <ellipse cx="672" cy="300" rx="180" ry="120" fill="#bfd4f7" opacity="0.55" filter="url(#soft)"/>
+
+  <!-- isometric platform -->
+  <ellipse cx="672" cy="418" rx="150" ry="46" fill="#cbd9f2" opacity="0.5"/>
+
+  <!-- monitor (isometric, screen facing viewer) -->
+  <g transform="translate(624,176) skewY(-14)">
+    <rect x="0" y="0" width="186" height="124" rx="10" fill="url(#blueA)"/>
+    <rect x="9" y="9" width="168" height="98" rx="6" fill="#ffffff"/>
+    <rect x="22" y="24" width="64" height="8" rx="4" fill="#2563eb"/>
+    <rect x="22" y="42" width="142" height="6" rx="3" fill="#c7d9f7"/>
+    <rect x="22" y="55" width="110" height="6" rx="3" fill="#c7d9f7"/>
+    <rect x="22" y="72" width="42" height="21" rx="4" fill="#dbeafe"/>
+    <rect x="72" y="72" width="42" height="21" rx="4" fill="#dbeafe"/>
+    <rect x="122" y="72" width="42" height="21" rx="4" fill="#bfdbfe"/>
+  </g>
+  <g>
+    <rect x="708" y="296" width="14" height="34" fill="#93c5fd"/>
+    <path d="M680 348 L715 330 L750 348 L715 366 Z" fill="#3b82f6"/>
+  </g>
+
+  <!-- floating QR tag -->
+  <g transform="translate(486,268)">
+    <path d="M0 26 L52 0 L104 26 L52 52 Z" fill="url(#white1)"/>
+    <path d="M0 26 L52 52 L52 96 L0 70 Z" fill="#e2ebfa"/>
+    <path d="M104 26 L52 52 L52 96 L104 70 Z" fill="#c8d8f2"/>
+    <g fill="#2563eb" opacity="0.9" transform="translate(30,20) skewY(26)">
+      <rect x="0" y="0" width="9" height="9"/><rect x="14" y="0" width="9" height="9"/>
+      <rect x="0" y="14" width="9" height="9"/><rect x="21" y="18" width="6" height="6"/>
+      <rect x="14" y="26" width="9" height="9"/><rect x="0" y="28" width="6" height="6"/>
+    </g>
+  </g>
+
+  <!-- floating cube -->
+  <g transform="translate(760,120)">
+    <path d="M0 18 L32 0 L64 18 L32 36 Z" fill="#dce8fb"/>
+    <path d="M0 18 L32 36 L32 66 L0 48 Z" fill="#b7cdf2"/>
+    <path d="M64 18 L32 36 L32 66 L64 48 Z" fill="#93b6ec"/>
+  </g>
+
+  <!-- dashed connector -->
+  <path d="M470 400 C540 400 500 300 566 268" stroke="#a9c2ee" stroke-width="2" fill="none" stroke-dasharray="5 6"/>
+  <circle cx="470" cy="400" r="9" fill="#ffffff" stroke="#a9c2ee" stroke-width="2"/>
+  <circle cx="470" cy="400" r="4" fill="#3b82f6"/>
+
+  <!-- app icon -->
+  <g transform="translate(56,164)">
+    <rect x="0" y="0" width="92" height="92" rx="26" fill="url(#blueA)"/>
+    <rect x="22" y="26" width="48" height="34" rx="5" fill="#ffffff"/>
+    <rect x="30" y="34" width="32" height="4" rx="2" fill="#2563eb"/>
+    <rect x="30" y="43" width="22" height="4" rx="2" fill="#93c5fd"/>
+    <rect x="38" y="62" width="16" height="8" rx="2" fill="#ffffff"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="176" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700"><tspan fill="#0b1020">Hardware</tspan><tspan fill="#1335ea"> Hub</tspan></text>
+  <text x="178" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#6b7086">Track. Assign. Maintain.</text>
+
+  <!-- progress bar -->
+  <rect x="58" y="330" width="352" height="7" rx="3.5" fill="#e3e6f1"/>
+  <rect x="58" y="330" width="228" height="7" rx="3.5" fill="url(#bar)"/>
+  <text x="58" y="372" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#454a63">Loading asset inventory...</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 517" width="880" height="517">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f5f8ff"/><stop offset="1" stop-color="#e8eefb"/>
+    </linearGradient>
+    <linearGradient id="cA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="cB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93c5fd"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2148ee"/><stop offset="1" stop-color="#4fabf6"/>
+    </linearGradient>
+    <pattern id="dots3" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#9db8e8" opacity="0.55"/>
+    </pattern>
+    <filter id="soft3" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="880" height="517" fill="url(#bg3)"/>
+  <g stroke="#dbe4f5" stroke-width="1" opacity="0.75">
+    <path d="M470 517 L700 250 M560 517 L790 250 M650 517 L880 250"/>
+    <path d="M430 400 L880 400 M470 340 L880 340 M520 280 L880 280"/>
+  </g>
+  <rect x="506" y="70" width="92" height="70" fill="url(#dots3)"/>
+  <ellipse cx="676" cy="296" rx="182" ry="118" fill="#bfd4f7" opacity="0.5" filter="url(#soft3)"/>
+  <ellipse cx="676" cy="428" rx="152" ry="44" fill="#cbd9f2" opacity="0.5"/>
+
+  <!-- database stack (isometric) -->
+  <g transform="translate(600,286)">
+    <ellipse cx="76" cy="112" rx="76" ry="30" fill="#1d4ed8"/>
+    <path d="M0 60 L0 112 A76 30 0 0 0 152 112 L152 60 Z" fill="url(#cA)"/>
+    <ellipse cx="76" cy="60" rx="76" ry="30" fill="#93c5fd"/>
+    <path d="M0 22 L0 60 A76 30 0 0 0 152 60 L152 22 Z" fill="url(#cB)"/>
+    <ellipse cx="76" cy="22" rx="76" ry="30" fill="#dbeafe"/>
+    <ellipse cx="76" cy="22" rx="40" ry="15" fill="#bfdbfe" opacity="0.7"/>
+  </g>
+
+  <!-- csv sheet -->
+  <g transform="translate(452,222)">
+    <path d="M0 26 L54 0 L108 26 L54 52 Z" fill="#ffffff"/>
+    <path d="M0 26 L54 52 L54 104 L0 78 Z" fill="#e6eefb"/>
+    <path d="M108 26 L54 52 L54 104 L108 78 Z" fill="#cddcf3"/>
+    <g transform="translate(16,32) skewY(26)" fill="#3b82f6" opacity="0.85">
+      <rect x="0" y="0" width="30" height="4"/><rect x="0" y="10" width="22" height="4"/>
+      <rect x="0" y="20" width="28" height="4"/><rect x="0" y="30" width="18" height="4"/>
+    </g>
+  </g>
+
+  <!-- gear -->
+  <g transform="translate(556,150)">
+    <circle cx="34" cy="34" r="26" fill="none" stroke="url(#cA)" stroke-width="12"/>
+    <circle cx="34" cy="34" r="9" fill="#2563eb"/>
+    <g fill="#3b82f6">
+      <rect x="29" y="-4" width="10" height="12" rx="2"/><rect x="29" y="60" width="10" height="12" rx="2"/>
+      <rect x="-4" y="29" width="12" height="10" rx="2"/><rect x="60" y="29" width="12" height="10" rx="2"/>
+    </g>
+  </g>
+
+  <!-- flow arrows -->
+  <path d="M512 300 C556 300 560 268 586 262" stroke="#a9c2ee" stroke-width="2.5" fill="none" stroke-dasharray="6 6"/>
+  <path d="M590 208 C630 226 646 246 660 268" stroke="#a9c2ee" stroke-width="2.5" fill="none" stroke-dasharray="6 6"/>
+  <circle cx="512" cy="300" r="9" fill="#ffffff" stroke="#a9c2ee" stroke-width="2"/>
+  <circle cx="512" cy="300" r="4" fill="#3b82f6"/>
+
+  <!-- floating cube -->
+  <g transform="translate(786,146)">
+    <path d="M0 18 L30 0 L60 18 L30 36 Z" fill="#dce8fb"/>
+    <path d="M0 18 L30 36 L30 64 L0 46 Z" fill="#b7cdf2"/>
+    <path d="M60 18 L30 36 L30 64 L60 46 Z" fill="#93b6ec"/>
+  </g>
+
+  <!-- app icon -->
+  <g transform="translate(56,164)">
+    <rect x="0" y="0" width="92" height="92" rx="26" fill="url(#cA)"/>
+    <path d="M30 40 a16 16 0 1 1 4 18" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28 28 L32 42 L18 40 Z" fill="#ffffff"/>
+  </g>
+
+  <text x="176" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700"><tspan fill="#0b1020">Refill</tspan><tspan fill="#1335ea"> Auto</tspan></text>
+  <text x="178" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#6b7086">Match. Merge. Generate.</text>
+
+  <rect x="58" y="330" width="352" height="7" rx="3.5" fill="#e3e6f1"/>
+  <rect x="58" y="330" width="300" height="7" rx="3.5" fill="url(#bar3)"/>
+  <text x="58" y="372" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#454a63">Building output database...</text>
+</svg>

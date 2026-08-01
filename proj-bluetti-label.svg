@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 517" width="880" height="517">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f5f8ff"/><stop offset="1" stop-color="#e8eefb"/>
+    </linearGradient>
+    <linearGradient id="bA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="bB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93c5fd"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2148ee"/><stop offset="1" stop-color="#4fabf6"/>
+    </linearGradient>
+    <pattern id="dots2" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#9db8e8" opacity="0.55"/>
+    </pattern>
+    <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="880" height="517" fill="url(#bg2)"/>
+  <g stroke="#dbe4f5" stroke-width="1" opacity="0.75">
+    <path d="M470 517 L700 250 M560 517 L790 250 M650 517 L880 250"/>
+    <path d="M430 400 L880 400 M470 340 L880 340 M520 280 L880 280"/>
+  </g>
+  <rect x="512" y="74" width="92" height="70" fill="url(#dots2)"/>
+  <ellipse cx="676" cy="300" rx="180" ry="120" fill="#bfd4f7" opacity="0.5" filter="url(#soft2)"/>
+  <ellipse cx="676" cy="424" rx="150" ry="44" fill="#cbd9f2" opacity="0.5"/>
+
+  <!-- label printer (isometric) -->
+  <g>
+    <path d="M566 300 L676 244 L790 300 L680 356 Z" fill="url(#bB)"/>
+    <path d="M566 300 L680 356 L680 408 L566 352 Z" fill="url(#bA)"/>
+    <path d="M790 300 L680 356 L680 408 L790 352 Z" fill="#1d4ed8"/>
+    <!-- slot -->
+    <path d="M612 296 L676 264 L742 296 L678 328 Z" fill="#0f2a63" opacity="0.35"/>
+    <!-- emerging label -->
+    <g>
+      <path d="M624 262 L688 230 L752 262 L688 294 Z" fill="#ffffff"/>
+      <path d="M624 262 L688 294 L688 300 L624 268 Z" fill="#e6eefb"/>
+      <g transform="translate(646,250) skewY(26.5)" fill="#1b2a4a">
+        <rect x="0" y="0" width="3" height="20"/><rect x="6" y="0" width="2" height="20"/>
+        <rect x="11" y="0" width="4" height="20"/><rect x="18" y="0" width="2" height="20"/>
+        <rect x="23" y="0" width="3" height="20"/><rect x="29" y="0" width="2" height="20"/>
+        <rect x="34" y="0" width="4" height="20"/><rect x="41" y="0" width="2" height="20"/>
+        <rect x="46" y="0" width="3" height="20"/><rect x="52" y="0" width="2" height="20"/>
+      </g>
+    </g>
+    <!-- ribbon roll -->
+    <g transform="translate(756,206)">
+      <ellipse cx="26" cy="14" rx="26" ry="14" fill="#dce8fb"/>
+      <path d="M0 14 L0 40 A26 14 0 0 0 52 40 L52 14 A26 14 0 0 1 0 14 Z" fill="#b7cdf2"/>
+      <ellipse cx="26" cy="14" rx="10" ry="5" fill="#93b6ec"/>
+    </g>
+  </g>
+
+  <!-- floating tag -->
+  <g transform="translate(476,296)">
+    <path d="M0 24 L48 0 L96 24 L48 48 Z" fill="#ffffff"/>
+    <path d="M0 24 L48 48 L48 84 L0 60 Z" fill="#e2ebfa"/>
+    <path d="M96 24 L48 48 L48 84 L96 60 Z" fill="#c8d8f2"/>
+    <circle cx="30" cy="34" r="6" fill="#3b82f6"/>
+  </g>
+
+  <path d="M462 402 C532 402 496 316 566 300" stroke="#a9c2ee" stroke-width="2" fill="none" stroke-dasharray="5 6"/>
+  <circle cx="462" cy="402" r="9" fill="#ffffff" stroke="#a9c2ee" stroke-width="2"/>
+  <circle cx="462" cy="402" r="4" fill="#3b82f6"/>
+
+  <!-- app icon -->
+  <g transform="translate(56,164)">
+    <rect x="0" y="0" width="92" height="92" rx="26" fill="url(#bA)"/>
+    <rect x="22" y="30" width="48" height="32" rx="4" fill="#ffffff"/>
+    <g fill="#2563eb"><rect x="28" y="36" width="3" height="20"/><rect x="34" y="36" width="2" height="20"/>
+      <rect x="39" y="36" width="4" height="20"/><rect x="46" y="36" width="2" height="20"/>
+      <rect x="51" y="36" width="3" height="20"/><rect x="57" y="36" width="2" height="20"/><rect x="62" y="36" width="3" height="20"/></g>
+  </g>
+
+  <text x="176" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700"><tspan fill="#0b1020">Label</tspan><tspan fill="#1335ea"> Print</tspan></text>
+  <text x="178" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#6b7086">Model. Work Order. Printed.</text>
+
+  <rect x="58" y="330" width="352" height="7" rx="3.5" fill="#e3e6f1"/>
+  <rect x="58" y="330" width="268" height="7" rx="3.5" fill="url(#bar2)"/>
+  <text x="58" y="372" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#454a63">Reading master data from Excel...</text>
+</svg>
